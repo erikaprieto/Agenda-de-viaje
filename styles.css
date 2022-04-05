@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-image:url(./imagenes/chalten\ \(BODY\).jpg);
+    background-size: cover;
+     /* filter: blur(5px);  */
+    
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+.h1{
+    color:white;
+    font-size: 3em;
+    font-style:italic;
+}
+.box{
+    width: 350px;
+    height: 250px;
+    background-size:cover;
+    border-radius: 5px;
+    box-shadow: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vuelo{ 
+    background-image: url(./imagenes/avion.jpg);
+}
+.transporte{
+    background-image: url(./imagenes/transporte.jpg);
+}
+.hotel{
+    background-image: url(./imagenes/hotelceleste.jpg);
+}
+.restaurante{
+    background-image: url(./imagenes/restaurante.jpg);
+}
+.excursiones{
+    background-image: url(./imagenes/excursion.jpg);
+}
+.valija{
+    background-image: url(./imagenes/valija.jpg);
+}

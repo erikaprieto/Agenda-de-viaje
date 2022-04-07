@@ -37,3 +37,16 @@
     align-self: flex-end;
     margin: 0.2em;
 }
+.main{
+    background-color: blueviolet;
+    width: 80em;
+    height: 33em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.viaje{
+    background-color: red;
+    width: 35em;
+    height: 33em;
+}

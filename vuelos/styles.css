@@ -51,13 +51,16 @@
     flex-direction: column;
 }
 .caja{
-    /* background-color: rgba(100, 148, 237, 0.598); */
-    /* background-color: rgba(255, 255, 255, 0.397); */
-    background-color: rgba(0, 0, 0, 0.276);
+    /* background-color: rgba(100, 148, 237, 0.598); 
+    /* background-color: rgba(0, 0, 0, 0.276); */
+    background-color: rgba(255, 255, 255, 0.397); 
     width:30em;
     height:5em;
     border-radius: 10px;
     border: 3px solid black;
+    display: flex;
+    align-items: center;
+    color: black;
 
 }
 .centro{

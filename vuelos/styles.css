@@ -50,23 +50,23 @@
     justify-content: space-around;
     flex-direction: column;
 }
-.caja{
-    /* background-color: rgba(100, 148, 237, 0.598); 
-    /* background-color: rgba(0, 0, 0, 0.276); */
-    background-color: rgba(255, 255, 255, 0.397); 
+.caja{ 
+    background-color: rgba(0, 0, 0, 0.545); 
+    /* background-color: rgba(128, 128, 128, 0.81); */
     width:30em;
     height:5em;
     border-radius: 10px;
     border: 3px solid black;
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
+    
 
 }
 .centro{
     color: white;
     font-size: 3em;
-    align-self: center;
+    /* align-self: center; */
 
 }
 .derecha{
@@ -75,7 +75,8 @@
     align-self: flex-end;
 }
 .caja>img{
-    width:6em;
-    height:6em;
+    width:6.5em;
+    height:6.5em;
     margin-left:-2em;
+    margin-right:1.5em;
 }

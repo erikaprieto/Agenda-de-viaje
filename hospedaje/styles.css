@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image:url("/imagenes/hospedaje-HD.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+}
+.fechas{
+    background-color: red;
+    width: 20%;
+    height: 90%;
+}
+.hoteles{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 90%;
+}
+.hotelchalten{
+    background-color: blue;
+    width: 90%;
+    height: 45%;
+}
+.hotelcalafate{
+    background-color: blue;
+    width: 90%;
+    height: 45%;
+}

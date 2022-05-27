@@ -4,22 +4,26 @@
     padding: 0;
 }
 .body{
-    background-image:url("/imagenes/hospedaje-HD.jpg");
+    background-image:url("/imagenes/edithosp.png");
     background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
     height: 100vh;
 }
 .fechas{
-    background-color: red;
+    /* background-color:rgba(255, 255, 255, 0.498); */
     width: 20%;
     height: 90%;
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
 }
 .hoteles{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,12 +32,53 @@
     height: 90%;
 }
 .hotelchalten{
-    background-color: blue;
+    background-color:rgba(255, 255, 255, 0.67);
     width: 90%;
     height: 45%;
 }
 .hotelcalafate{
-    background-color: blue;
+    background-color:rgba(255, 255, 255, 0.67);
     width: 90%;
     height: 45%;
+}
+.circuloizquierdo{
+    width: 3.8em;
+    height: 3.8em;
+    border-radius: 100%;
+    box-shadow:-12px -12px 24px black;
+}
+.circuloderecho{
+    width: 3.8em;
+    height: 3.8em;
+    border-radius: 100%;
+    align-self: flex-end;
+    box-shadow:-12px -12px 24px black;
+}
+.diaschalten{
+    background-color: rgba(100,149,237,1);
+
+}
+.diaschaltenycalafate{
+    background: linear-gradient(0deg, rgba(21,104,105,1) 0%, rgba(100,149,237,1) 100%);
+
+}
+.diascalafate{
+    background-color:  rgba(21,104,105,1);
+
+}
+
+
+
+@media (max-width:400px){
+    .circuloizquierdo{
+        width: 2.6em;
+        height: 2.6em;
+        align-self: center;
+    }
+    .circuloderecho{
+        width: 2.6em;
+        height: 2.6em;
+        align-self: center;
+    }
+
 }

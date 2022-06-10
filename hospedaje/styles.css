@@ -31,19 +31,15 @@
     width: 70%;
     height: 90%;
 }
-.hotelchalten{
+
+.hoteldetalle{
     background-color:rgba(255, 255, 255, 0.67);
     width: 90%;
     height: 45%;
     display: flex;
 }
-.hotelcalafate{
-    background-color:rgba(255, 255, 255, 0.67);
-    width: 90%;
-    height: 45%;
-    display: flex;
-}
-.circuloizquierdo{
+
+.dias{
     width: 3.8em;
     height: 3.8em;
     border-radius: 100%;
@@ -52,15 +48,9 @@
     justify-content: center;
     align-items: center;
 }
+
 .circuloderecho{
-    width: 3.8em;
-    height: 3.8em;
-    border-radius: 100%;
     align-self: flex-end;
-    box-shadow:-12px -12px 24px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .diaschalten{
     background-color: rgba(100,149,237,1);
@@ -73,26 +63,16 @@
     background-color:  rgba(21,104,105,1);
 
 }
-.hoteldonatilio{
+.fotoshoteles{
     width: 40%;
     height:100%;
 }
-.hoteledenia{
-    width: 40%;
-    height: 100%;
 
-}
-.descripcionatilio{
+.descripcionhoteles{
     /* background-color:cornflowerblue; */
     width: 60%;
     height: 100%;
     padding:2%;
-}
-.descripcionedenia{
-    /* background-color: cornflowerblue; */
-    width: 60%;
-    height: 100%;
-    padding: 2%;
 }
 
 
